@@ -4,11 +4,17 @@
 .orangeText {
     color: #F86201 !important;
 }
+.orangeOut {
+    border-color: #F86201 !important;
+}
 .greyBack {
     background-color: #828282 !important;
 }
+.ltGreyBack{
+    background-color: #EDEDED;
+}
 h3 {
-    font-size: 17px !important;
+    font-size: 18px !important;
     font-weight: 500 !important;
 }
 h4 {
@@ -18,8 +24,21 @@ h4 {
 h5{
     font-weight: 300 !important;
     font-size: 14px !important;
+    
 }
 h6{
     font-weight: 300 !important;
     font-size: 12px !important;
+    line-height: .5 !important;
+}
+hr{
+    color: black !important;
+}
+.p2 {
+    font-weight: 300 !important;
+    font-size: 10px !important;
+}
+.p3 {
+    font-weight: 300 !important;
+    font-size: 8px !important;
 }

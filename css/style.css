@@ -6,7 +6,9 @@ body {
 }
 
 /*============= TOP BAR HEADER =============*/
-
+.container {
+  border: 1px solid red;
+}
 .top-bar {
   background:#f2f2f2;
   height: 1.8rem;
@@ -41,11 +43,42 @@ body {
 
 }
 
+h1{
+  font-family: HelveticaNeue, Helvetica, sans-serif, Arial; 
+  font-size: 26px;
+  font-weight: 800;
+  text-justify: center;
+
+}
+
+.iconssql {
+  display: inline;
+}
+
 h4 {
   font-family: HelveticaNeue, Helvetica, sans-serif, Arial; 
   font-size: 14px;
   font-weight: 300;
   text-justify: center;
+
+}
+
+h2 {
+  font-family: HelveticaNeue, Helvetica, sans-serif, Arial; 
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: HelveticaNeue, Helvetica, sans-serif, Arial; 
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  font-family: HelveticaNeue, Helvetica, sans-serif, Arial; 
+  font-size: 18px;
+  font-weight: 200;
 
 }
 
@@ -74,7 +107,21 @@ h4 {
 
 .nav-link.active,
 .nav-link:hover {
-  color: #4981b3 !important;
+  color: #C4C4C4 !important;
+}
+
+.btn {
+  border: 1px solid white;
+  color: white;
+
+}
+
+.menu-icon{
+  height: 44px;
+}
+
+.menu-icn{
+  margin-top: 21px
 }
 
 
@@ -119,7 +166,7 @@ h4 {
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
-@media (max-width: 1199.98px) {
+@media (max-width: 1199px) {
 
 }
 /* Devices under 768px (md) */
