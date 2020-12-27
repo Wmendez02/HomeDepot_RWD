@@ -29,7 +29,7 @@ h5{
 h6{
     font-weight: 300 !important;
     font-size: 12px !important;
-    line-height: .5 !important;
+
 }
 hr{
     color: black !important;
@@ -41,4 +41,8 @@ hr{
 .p3 {
     font-weight: 300 !important;
     font-size: 8px !important;
+}
+.acBtnWm{
+    border:  0px !important;
+    color: #F96302 !important;
 }

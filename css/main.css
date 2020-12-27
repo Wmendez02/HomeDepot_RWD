@@ -58,7 +58,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-  color: #57b846;
+  color: #9c9c9c;
 }
 
 /*---------------------------------------------*/
@@ -67,7 +67,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Raleway-Regular;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -139,7 +139,7 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Raleway-SemiBold;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #555555;
   line-height: 1.4;
@@ -147,14 +147,14 @@ iframe {
 }
 
 .txt2 {
-  font-family: Raleway-Regular;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #999999;
   line-height: 1.4;
 }
 
 .txt3 {
-  font-family: Raleway-Regular;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #555555;
   line-height: 1.4;
@@ -202,7 +202,7 @@ iframe {
 }
 
 .login100-form-title {
-  font-family: Raleway-Medium;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 30px;
   color: #555555;
   line-height: 1.2;
@@ -229,7 +229,7 @@ iframe {
 
 /*---------------------------------------------*/
 .input100 {
-  font-family: Raleway-Medium;
+  font-family: Helvetica, Arial, sans-serif;
   color: #555555;
   line-height: 1.2;
   font-size: 18px;
@@ -330,7 +330,7 @@ iframe {
 }
 
 .label-checkbox100 {
-  font-family: Raleway-Regular;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #999999;
   line-height: 1.4;
@@ -387,7 +387,7 @@ iframe {
 }
 
 .login100-form-btn {
-  font-family: Raleway-Bold;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
@@ -402,7 +402,7 @@ iframe {
   padding: 0 20px;
   min-width: 150px;
   height: 55px;
-  background-color: #333333;
+  background-color: #F96302;
   border-radius: 27px;
 
   -webkit-transition: all 0.4s;
@@ -444,7 +444,7 @@ iframe {
   right: 12px;
   pointer-events: none;
 
-  font-family: Raleway-Medium;
+  font-family: Helvetica, Arial, sans-serif;
   color: #c80000;
   font-size: 14px;
   line-height: 1.4;
@@ -496,4 +496,17 @@ iframe {
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+.btn-outline-success {
+ color: #ffffff; 
+background-color: transparent; 
+background-image: none; 
+border-color: #ffffff; 
+}
+
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #828282;
+  border-color: #828282;
 }
