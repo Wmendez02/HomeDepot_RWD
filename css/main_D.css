@@ -263,3 +263,21 @@
 	text-transform: uppercase;
 	cursor: pointer;
 }
+.btn-outline-success {
+	color: #ffffff; 
+   background-color: transparent; 
+   background-image: none; 
+   border-color: #ffffff; 
+   }
+   
+   
+   .btn-outline-success:hover {
+	 color: #fff;
+	 background-color: #828282;
+	 border-color: #828282;
+   }
+   .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+	color: #ffffff;
+	background-color: #828282;
+	border-color: #828282;
+  }
