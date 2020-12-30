@@ -27,7 +27,8 @@
 	<title>Home Depot</title>
 	<link rel="shortcut icon" href="img/homedepot.ico">
 	<!-- Bootstrap 4.5 CSS -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylesFooter.css">
 	<!-- Style CSS -->
 
 	<!-- Google Fonts -->
@@ -244,18 +245,330 @@
                 </div>
 
             </div>
-            <hr>
+            <hr class="mt-0">
             <div class="row">
                 <div class="col-lg-1">
                 </div>
                 <div class="col-10 ml-4">
-                    <h4>Free shipping on Eligible Items. See details</h4>
+                    <h4>FREE Shipping on Eligible Items. <a href="">See details</a> </h4>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-1">
                 </div>
-                <div class="col-12 col-lg-6">Accordian Goes Here.</div>
+                <div class="col-12 col-lg-6">
+                  <div class="accordion " id="accordionExample">
+                    <div class="card rounded-0 border-0 mt-3">
+                      <div class="card-header pl-0 py-1" id="headingOne">
+                        <h2 class="mb-0">
+                          <button class="btn btn-block text-left text-dark border-0 p-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h3 class="orangeBack font-weight-bold d-inline text-white p-2">1</h3>
+                            <h3 class="font-weight-bold d-inline ml-3">Choose a Delivery Option</h3>
+                            <h5 class="d-inline text-right ml-2"> Please choose the desired option.</h5>
+                          </button>
+                        </h2>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" >
+                        <div class="card-body px-0">
+                          <div class="row">
+                            <div class="col-6 col-lg-3 pr-0">
+                              <div id="headingOne" class="custom-control custom-radio custom-control-inline mr-0" >
+                                <input type="radio" id="customRadioInline1" name="customRadioInline1"  class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline1">
+                                  <h4 class="font-weight-bolder">Store Pick Up</h4>
+                                  <h5>Estimated Arrival</h5>
+                                  <h6 class="text-success">Today before 2:00 pm</h6>
+                                  <a href=""><h6>More details</h6></a>
+
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-6 col-lg-3 pr-0">
+                              <div class="custom-control custom-radio custom-control-inline mr-0">
+                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline2">
+                                  <h4 class="font-weight-bolder">Ship to Home</h4>
+                                  <h5>Estimated Arrival</h5>
+                                  <h6 class="text-success">Free wed, Jan 20</h6>
+                                  <a href=""><h6>More details</h6></a>
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-6 col-lg-3 pr-0">
+                              <div class="custom-control custom-radio custom-control-inline mr-0">
+                                <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline3">
+                                  <h4 class="font-weight-bolder">Schedule Delivery</h4>
+                                  <h5>Not avaliable for this item</h5>
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-6 col-lg-3 pr-0">
+                              <div class="custom-control custom-radio custom-control-inline mr-0">
+                                <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline4">
+                                  <h4 class="font-weight-bolder">Curbside Pick Up</h4>
+                                  <h5>Estimated Arrival</h5>
+                                  <h6 class="text-success">Today before 2:00 pm</h6>
+                                  <a href=""><h6>More details</h6></a>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card rounded-0 border-0 mt-3">
+                      <div class="card-header pl-0 py-1" id="headingTwo">
+                        <h2 class="mb-0">
+                          <button class="btn btn-block text-left collapsed text-dark border-0 p-0" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h3 class="orangeBack font-weight-bold d-inline text-white p-2">2</h3>
+                            <h3 class="font-weight-bold d-inline ml-3">Shipping Address</h3>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" >
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-10">
+                              <form>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">First Name</label>
+                                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Last Name</label>
+                                  <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Shipping Address</label>
+                                  <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="row">
+                                  <div class="col-9 pl-0">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">City</label>
+                                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                  </div>
+                                  <div class="col-3 pr-0">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">State</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-6 pl-0">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Phone Number (Optional)</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                  </div>
+                                  <div class="col-6 pr-0">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Zip Code/ Store #</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-6 pl-0">
+                                    <button type="submit" class="btn btn-block orangeBack">Save</button>
+                                  </div>
+                                  <div class="col-6 pr-0">
+                                    <button type="submit" class="btn btn-block orangeText">Cancel</button>
+                                  </div>
+                                </div>
+                              </form>
+                              <div class="row mt-5">
+                                <div class="col-8">
+                                  <h4 class="font-weight-bolder">Miguel</h4>
+                                  <h4 class="text-success">You're Currently Shopping:</h4>
+                                  <h5 class="font-weight-bolder">Austin Muleller Airport #6892</h5>
+                                  <h6>1200 Babara Jordan Blvd Suite 100</h6>
+                                  <h6>Austin, TX 78524</h6>
+                                  <h6><span class="text-success">Open</span> Closes 9 pm</h6>
+                                  <a href=""><h6>More details</h6></a>                                  
+                                </div>
+                                <div class="col-4 text-right">
+                                  <a href=""><h6>Show Store Details</h6></a>  
+                                </div>
+                              </div>                              
+                            </div>
+                            <div class="col-1">
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card rounded-0 border-0 mt-3">
+                      <div class="card-header pl-0 py-1" id="headingThree">
+                        <h2 class="mb-0">
+                          <button class="btn btn-block text-left text-dark border-0 p-0 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h3 class="orangeBack font-weight-bold d-inline text-white p-2">3</h3>
+                            <h3 class="font-weight-bold d-inline ml-3">Payment Method</h3>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-8">
+                              <form>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">Name on Card</label>
+                                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputPassword1">Card Number</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="row">
+                                  <div class="col-8 px-0">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Expiration</label>
+                                      <div class="row justify-content-between">
+                                        <input type="text" class="form-control col-6" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Month">
+                                        <input type="text" class="form-control col-5" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Year">
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                  <div class="col-4 pr-0">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">CCV</label>
+                                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-6 pl-0">
+                                    <button type="submit" class="btn btn-block orangeBack">Save</button>
+                                  </div>
+                                  <div class="col-6 pr-0">
+                                    <button type="submit" class="btn btn-block orangeText">Cancel</button>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                            <div class="col-4">Examples of Legit Credit Cards. NOT A SCAM.</div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="card border-0 mt-4">
+                    <div class="card-header pl-0 py-1" >
+                      <h2 class="mb-0">
+                        <button class="btn btn-block text-left text-dark border-0 p-0" type="button">
+                          <h3 class="orangeBack font-weight-bold d-inline text-white p-2">4</h3>
+                          <h3 class="font-weight-bold d-inline ml-3">Product Review</h3>
+                        </button>
+                      </h2>
+                    </div>
+                    <div >
+                      <h4 class="pt-3 pl-4 mb-0">Estimated Delivery: <span class="orangeText"> Jan. 20, 2021-Jan 23, 2021</span></h4>
+                      <div class="card-body">
+                        <div class="card mb-3" >
+                          <div class="row no-gutters">
+                            <div class="col-md-3">
+                              <img src="images/product_photos/t1.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-9">
+                              <div class="card-body">
+                                <h5 class="d-inline font-weight-bold">Brussel's Bonsai</h5>
+                                <h6 class="d-inline">Green Mound Juniper (Outdoor)</h6><br>
+                                <h6>by Brussel Bushes</h6>
+                                <div class="row mb-2">
+                                  <div class="col-7 pl-0">
+                                    <div class="d-inline orangeText">
+                                      <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                    </div>
+                                    <h6 class="d-inline">(64) Reviews</h6>
+                                  </div>
+                                  <div class="col-5">
+                                    <h6 class="d-inline text-right">Questions & Answers</h6>
+                                  </div>
+                                </div>
+                                <h5>-Includes container, humidity tray, and care brochure</h5>
+                                <h5>-Ideal for use in home and office</h5>
+                                <h5>-Perfect accent piece for outdoor porch, patio, and deck areas</h5>
+                                <a href="">
+                                  <h5>See More Details</h5>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row no-gutters">
+                            <div class="col-md-3">
+                              <img src="images/product_photos/t1.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-9">
+                              <div class="card-body">
+                                <h5 class="d-inline font-weight-bold">Brussel's Bonsai</h5>
+                                <h6 class="d-inline">Green Mound Juniper (Outdoor)</h6><br>
+                                <h6>by Brussel Bushes</h6>
+                                <div class="row mb-2">
+                                  <div class="col-7 pl-0">
+                                    <div class="d-inline orangeText">
+                                      <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                    </div>
+                                    <h6 class="d-inline">(64) Reviews</h6>
+                                  </div>
+                                  <div class="col-5">
+                                    <h6 class="d-inline text-right">Questions & Answers</h6>
+                                  </div>
+                                </div>
+                                <h5>-Includes container, humidity tray, and care brochure</h5>
+                                <h5>-Ideal for use in home and office</h5>
+                                <h5>-Perfect accent piece for outdoor porch, patio, and deck areas</h5>
+                                <a href="">
+                                  <h5>See More Details</h5>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row no-gutters">
+                            <div class="col-md-3">
+                              <img src="images/product_photos/t1.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-9">
+                              <div class="card-body">
+                                <h5 class="d-inline font-weight-bold">Brussel's Bonsai</h5>
+                                <h6 class="d-inline">Green Mound Juniper (Outdoor)</h6><br>
+                                <h6>by Brussel Bushes</h6>
+                                <div class="row mb-2">
+                                  <div class="col-7 pl-0">
+                                    <div class="d-inline orangeText">
+                                      <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
+                                    </div>
+                                    <h6 class="d-inline">(64) Reviews</h6>
+                                  </div>
+                                  <div class="col-5">
+                                    <h6 class="d-inline text-right">Questions & Answers</h6>
+                                  </div>
+                                </div>
+                                <h5>-Includes container, humidity tray, and care brochure</h5>
+                                <h5>-Ideal for use in home and office</h5>
+                                <h5>-Perfect accent piece for outdoor porch, patio, and deck areas</h5>
+                                <a href="">
+                                  <h5>See More Details</h5>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
                 <div class="col-12 col-lg-4 pl-4 pr-4 ltGreyBack">
                             <h2 class="pt-4">Your Order</h2>
                             <br>
@@ -303,7 +616,7 @@
     </div>
         <!-- FOOTER STARTS here -->
         <footer>
-            <link rel="stylesheet" href="css/stylesFooter.css">
+
             <div class="row greyBack pt-3 pb-3">
                 <DIV class="col-lg-1"></DIV>
                 <div class="col-lg-5 text-center text-lg-left text-white"><h3>How doers get more done</h3></div>
