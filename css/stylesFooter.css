@@ -46,3 +46,17 @@ hr{
     border:  0px !important;
     color: #F96302 !important;
 }
+
+
+.login100-form-btn:hover {
+    background-color: #828282 !important; 
+}
+.btn-outline-success.focus, .btn-outline-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(175, 175, 175, 0.5);
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #828282;
+    border-color: #828282;
+}
