@@ -60,3 +60,65 @@ hr{
     background-color: #828282;
     border-color: #828282;
 }
+#shippingAddress {
+    display: none;
+}
+#deliveryOption {
+    display: none;
+}
+#paymentMethod {
+    display: none;
+}
+.homeShip{
+    display: none;
+}
+
+/** Simons Code**/
+
+#CAone {
+    background-color: #f1f1f1 !important;
+   
+ }
+ #CAh1 {
+  text-align: center;
+ }
+ #CAh2 {
+    text-align: center;
+ }
+ #CAlogin {
+    color: #F96302
+ }
+ #CAbutton1 {
+    background-color: #F96302;
+    border: #F96302;
+ }
+ #CAbutton2 {
+    color:#F96302;
+    border-color: #F96302;
+ }
+ 
+ #IPone {
+    background-color: #f1f1f1;
+ }
+  
+ .IPh2 {
+    font-size: medium;
+ }
+ #IPbutton1 {
+    background-color: #F96302;
+    border-color: #F96302;
+ }
+ #IPbutton2 {
+    color: #F96302;
+    border-color: #F96302;
+  
+ }
+  
+ #IPlogin {
+    color:#F96302;
+ }
+ .btn-outline-primary:hover {
+ background-color: #f1f1f1;
+ }
+ 
+ /** Simons Code**/

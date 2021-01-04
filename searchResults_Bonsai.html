@@ -29,7 +29,8 @@
 	<!-- Bootstrap 4.5 CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Style CSS -->
-  	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleHeader.css">
   <!-- Best Code made by the most humblest of coders. SO it goes last. -->
   <link rel="stylesheet" href="css/stylesFooter.css">
   <!-- Best Code made by the most humblest of coders. SO it goes last. -->
@@ -37,193 +38,225 @@
 	
 </head>
 <body>
-<header> 
-
-	<!-- Top Bar -->
-<div class="top-bar">
-	<div class="container">
-		<div class="col-12 text-center">
-			<p><a href="Add">FREE DELIVERY Over one million online items eligible.</a></p>
+	<header>
+		<!-- Top Bar -->
+		<div class="top-bar">
+			<div class="container">
+				<div class="col-12 text-center">
+					<p><a href="Add">FREE DELIVERY Over one million online items eligible.</a></p>
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
 	<!-- End Top Bar -->
-
-
-	<!-- Navigation -->
 	<div class="container-fluid" id="primary">
-		<div class="row align-items-center" >
-			<!--Logo-->
-			<div class="col-xl-1 offset-xl-1 col-sm-2">
-				<a href="indexLogIn.html" class="navbar-brand"><img src="img/logo.png" alt="Logo" title="Logo"></a>
-			</div>
-			<!--Set Location-->
-		  	<div class="col-xl-2 col-sm-1 text-left setLocation">						  
-				<a class="nav-link" routerLink="" routerLinkActive="active">
-						<img src="img/location_icon.png" class="iconos d-inline-block" alt="location">
-						<h4 class="d-inline-block ml-1">Set location</h4>
-				</a>
-			</div>
-			<!--Search-->
-			<div class="col-xl-5 col-sm-5">
-				<form class="form-inline">
-					<input class="form-control mr-sm-3 w-75" type="search" placeholder="Search" aria-label="Search">
-					<a href="searchResults_Drill.html"button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></a>
-				</form>
-			</div>
-			<!--Icons-->
-			<div class="col-xl-2 d-md-block d-sm-none d-none">
-				<nav class="navbar  navbar-expand-xl">
-					<div class="collapse navbar-collapse navbarHd">
-						<ul class="navbar-nav mx-auto w-100">
-							<li class="nav-item dropdown w-50">
-								<a class="nav-link prime" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<div class="d-block w-100">
-										<img src="img/login_icon.png" class="iconos d-block mx-auto menu-icn" alt="Log In">
+	<div class="row" >
+			<div class="col-md-12 mx-auto p-0">
+			<!-- Logo Home Depot -->
+				<div class="col-md-10 mx-auto p-0">
+					<nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark">
+						<a href="indexLogIn.html" class="navbar-brand ml-2 "><img src="img/logo.png" alt="Logo" title="Logo"></a>
+				
+	
+					<!-- Set Location --> 
+						<div class="col-md-2  text-left d-none d-lg-block">
+									<ul class="navbar-nav ml-auto justify-content-start">
+										<li class="nav-item active">
+											<a class="nav-link" href="#">
+											<i class="fas fa-map-marker-alt"></i>
+											Set Location
+											<span class="sr-only">(current)</span>
+											</a>
+										</li>
+						</div>                
+					<!-- Search --> 
+						<div class="col-md-4 col-sm-4 d-none d-lg-block">
+							<form class="form-inline justify-content-center align-items-center">
+								<input class="form-control mr-sm-1 w-75" type="search" placeholder="Search" aria-label="Search">
+								<a class="btn btn-outline-primary my-2 my-sm-0" href="searchResults_Drill.html" type="button" style="color: white; background-color: transparent; border-color: white;"><i class="fas fa-search"></i></a>
+							</form>
+						</div>
+					<!-- Log In --> 
+						<div class="col-md-4 offset-xl-1 col-6 p-0 mr-1 d-inline p-2" id="prime">
+							<ul class="navbar-nav mr-auto mt-2  mt-lg-0">
+								<li class="nav-item dropdown d-none d-lg-block">
+									<a class="nav-link text-center dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="  fas fa-user-alt"></i><br>
+									Hi, Miguel!
+									<span class="sr-only">(current)</span>
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="index.html">Sign Out</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Orders & Purchases</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">My Home Depot Credit Card</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">Instant Checkout Settings</a>
+										<div class="dropdown-divider"></div>
+										<a class="dropdown-item" href="#">My Subscriptions</a>
 									</div>
-									<h4 class="d-block text-center">Hi, Miguel!</h4>
+								</li>
+					<!-- My Favorite --> 
+								<li class="nav-item active d-none d-lg-block ml-4">
+									<a class="nav-link text-center" href="#">
+									<i class="far fa-heart"></i><br>
+									My Favorites
+									<span class="sr-only">(current)</span>
+									</a>
+								</li>
+					<!-- Shopping Cart --> 
+								<li class="nav-item active ml-4 text-center">
+									<a class="nav-link" href="cart_3.html" style>
+									<i class="fas fa-shopping-cart mr-1"></i><span class="badge badge-pill badge-light" >0</span><br>
+									Shopping Cart
+									</a>
+								</li>      
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div> 
+	</div>
+	<!-- Second Nav Bar --> 
+	<div class="container-fluid bg-dark text-light">
+		<div class="row">
+			<div class="col-sm-12 col-md-auto mx-auto">
+				<nav class="navbar navbar-expand-lg navbar-dark align-items-center p-0">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+				
+					<div class="collapse navbar-collapse align-items-center" id="navbarTogglerDemo02">
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+							<form class="input-group md-form form-sm form-2 pl-0 d-md-none d-sm-block">
+								<input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
+								<button class="input-group-text amber lighten-3" type="submit"><i class="fas fa-search text-grey"
+									aria-hidden="true"></i></button>
+							</form>
+							<li class="nav-item dropdown d-md-none d-sm-block">
+								<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fas fa-user-alt "></i>
+								Log In
+								<span class="sr-only">(current)</span>
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<a class="dropdown-item" href="#">Log Out</a>
-
+									<a class="dropdown-item" href="#">Log In</a>
 									<div class="dropdown-divider"></div>
-									<a class="dropdown-item" href="#">Order & Purchases</a>
+									<a class="dropdown-item" href="#">Orders & Purchases</a>
+									<div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="#">My Home Depot Credit Card</a>
-									<a class="dropdown-item" href="#">Instant Checkout Setting</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Instant Checkout Settings</a>
+									<div class="dropdown-divider"></div>
 									<a class="dropdown-item" href="#">My Subscriptions</a>
 								</div>
 							</li>
-						
-							<li class="nav-item align-items-center w-50">
-								<a class="nav-link prime" routerLink="" routerLinkActive="active" style="display:block">
-									<div class="d-block w-100">
-										<img src="img/myfavorite_icon.png" class="icono d-block mx-auto menu-icn" alt="My Favorites">
-									</div>
-									<h4 class="d-block text-center">My Favorites</h4> 
+							<li class="nav-item active d-md-none d-sm-block">
+								<a class="nav-link text-light" href="#">
+								<i class="far fa-heart"></i>
+								My favorite
+								<span class="sr-only">(current)</span>
 								</a>
+							</li>
+						   
+							<li class="nav-item dropdown mr-5 ml-5">
+								<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								All Departments
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Tools</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Cleaning / Storage</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Outdoor</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Electrical / Lighting</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Home / Kitchen</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Home Improvements</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Bathroom / Plumbing</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#">Home Decor</a>   
+								</div>
+							</li>
+							<li class="nav-item dropdown mr-5 ml-5">
+								<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Promotions
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Pro Special buy of the Week</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Special buy of the Day</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Savings by Deparment</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Shop by Room</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Shop all Savings</a>   
+								</div>
+							</li>
+							<li class="nav-item dropdown mr-5 ml-5">
+								<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Services
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Specials & Offers</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">DYI Projects & Ideas</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Truck & Tool Rental</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Installation & Services</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Moving Supplies & Rentals</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Real Estate Floor Plan Services</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Protection Plans</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Rebate Center</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Gift Cards</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Catalog</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Subscriptions</a>
+								
+								</div>
+							</li>
+							<li class="nav-item dropdown mr-5 ml-5">
+								<a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Inspirations
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Trendings</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Home Decor Ideas</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Holiday Decorations</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Popular Installations</a>
+								</div>
 							</li>
 						</ul>
 					</div>
 				</nav>
-			</div>		 
-			<div class="col-xl-1 col-1">
-				<a href="cart_2.html" class="text-center">
-					<div class="d-inline-block w-100">
-						<img src="img/shoppingcar_icon.png" class="iconos mx-auto" alt="Shopping">
-					</div>
-					<h4 class="d-inline-block text-center text-light">Shoping Cart</h4>
-				</a>
-			</div>
+			</div>    
 		</div>
 	</div>
-	<div class="container-fluid bg-dark text-light">
-		<div class="row">
-			<div class="col-sm-12 col-md-auto mx-auto">
-				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-					<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target=".navbarHd" aria-controls="navbarHd" aria-expanded="false" aria-label="Toggle navigation">
-					  <span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse navbarHd" id="navbarHd">
-					  <ul class="navbar-nav mx-auto">
-						<li class="nav-item dropdown  d-md-none d-sm-block">
-							<a class="nav-link prime" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<div class="d-block">
-									<img src="img/login_icon.png" class="iconos d-block menu-icn" alt="Log In">
-								</div>
-								<h4 class="d-block">Log In</h4>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Log In</a>
-								<a class="dropdown-item" href="#">Create an Account</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Order & Purchases</a>
-								<a class="dropdown-item" href="#">My Home Depot Credit Card</a>
-								<a class="dropdown-item" href="#">Instant Checkout Setting</a>
-								<a class="dropdown-item" href="#">My Subscriptions</a>
-							</div>
-						</li>
-					
-						<li class="nav-item align-items-center d-md-none d-sm-block">
-							<a class="nav-link prime" routerLink="" routerLinkActive="active" style="display:block">
-								<div class="d-block">
-									<img src="img/myfavorite_icon.png" class="icono d-block menu-icn" alt="My Favorites">
-								</div>
-								<h4 class="d-block">My Favorites</h4> 
-							</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<h4 class="d-inline">All Departments</h4>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Tools</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Cleaning / Storage</a>
-								<a class="dropdown-item" href="#">Outdoor</a>
-								<a class="dropdown-item" href="#">Electrical / Lighting</a>
-								<a class="dropdown-item" href="#">Home / Kitchen</a>
-								<a class="dropdown-item" href="#">Home Improvements</a>
-								<a class="dropdown-item" href="#">Bathroom / Plumbing</a>
-								<a class="dropdown-item" href="#">Home Decor</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<h4 class="d-inline">Promotions</h4>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Log In</a>
-								<a class="dropdown-item" href="#">Create an Account</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Order & Purchases</a>
-								<a class="dropdown-item" href="#">My Home Depot Credit Card</a>
-								<a class="dropdown-item" href="#">Instant Checkout Setting</a>
-								<a class="dropdown-item" href="#">My Subscriptions</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<h4 class="d-inline">Services</h4>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Log In</a>
-								<a class="dropdown-item" href="#">Create an Account</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Order & Purchases</a>
-								<a class="dropdown-item" href="#">My Home Depot Credit Card</a>
-								<a class="dropdown-item" href="#">Instant Checkout Setting</a>
-								<a class="dropdown-item" href="#">My Subscriptions</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<h4 class="d-inline">Inspirations</h4>
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Log In</a>
-								<a class="dropdown-item" href="#">Create an Account</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Order & Purchases</a>
-								<a class="dropdown-item" href="#">My Home Depot Credit Card</a>
-								<a class="dropdown-item" href="#">Instant Checkout Setting</a>
-								<a class="dropdown-item" href="#">My Subscriptions</a>
-							</div>
-						</li>
-					  </ul>
-					</div>
-				  </nav>
-			</div>
-		</div>
-	</div>
+
 </header>
 		
 	
 
   <div class="container-fluid bg-light">
     <div class="row align-items-center">
-      <div class="col-lg-1">
+      <div class="col-xl-1">
       </div>
-      <div class="col-12 col-lg-4 ">
+      <div class="col-12 col-xl-4 ">
           <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="indexLogIn_1.html">Home</a></li>
@@ -231,23 +264,23 @@
               </ol>
             </nav>          
       </div>
-      <DIV class="col-0 col-lg "></DIV>
-      <DIV class="col-6 col-lg-1 m-2"> <h3>6 Results</h3></DIV>
-      <div class="col-lg-1 d-none d-lg-block">
+      <DIV class="col-0 col-xl "></DIV>
+      <DIV class="col-6 col-xl-1 m-2"> <h3>6 Results</h3></DIV>
+      <div class="col-xl-1 d-none d-lg-block">
       </div>
     </div>
     <div class="row d-none d-lg-block">
-      <div class="col-lg-1">
+      <div class="col-xl-1">
       </div>
-      <div class="col-lg"><hr>
+      <div class="col-xl"><hr>
       </div>
       
-      <div class="col-lg-1">
+      <div class="col-xl-1">
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-2 w-100 ">
+      <div class="col-xl-1"></div>
+      <div class="col-xl-2 w-100 ">
           <nav class="navbar navbar-expand-lg flex-column align-items-start navbar-light bg-light flex-fill px-0">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -271,7 +304,7 @@
                             </div>
                           </div>
                         </div>
-                      <div class="card">
+                      <div class="card w-100">
                         <div class="card-header px-0" id="headingTwo">
                           <h4 class="mb-0">
                             <button class="btn acBtnWm btn-link d-flex justify-content-between btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -285,7 +318,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="card">
+                      <div class="card w-100">
                         <div class="card-header px-0" id="headingThree">
                           <h4 class="mb-0">
                             <button class="btn acBtnWm btn-link d-flex justify-content-between btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -300,7 +333,7 @@
                         </div>
                       </div>
 
-                      <div class="card">
+                      <div class="card w-100">
                           <div class="card-header px-0" id="headingFour">
                             <h4 class="mb-0">
                               <button class="btn acBtnWm btn-link d-flex justify-content-between btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -314,7 +347,7 @@
                             </div>
                           </div>
                         </div>
-                      <div class="card">
+                      <div class="card w-100">
                         <div class="card-header px-0" id="headingFive">
                           <h4 class="mb-0">
                             <button class="btn acBtnWm btn-link d-flex justify-content-between btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -328,17 +361,17 @@
                           </div>
                         </div>
                       </div>
-                      <div class="card">
+                      <div class="card w-100">
                         <div class="card-header px-0" id="headingSix">
                           <h6 class="mb-0">
                             <button class="btn acBtnWm btn-link d-flex justify-content-between btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                              <h5>Light Requirements &emsp;  &nbsp; </h5> <span>  <i class="fas fa-plus-circle"></i></span>
+                              <h4 class="mr-5 mb-0">Light Requirements </h4> <span>  <i class="fas fa-plus-circle ml-5"></i></span>
                             </button>
                           </h6>
                         </div>
                         <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                           <div class="card-body">
-                            <h6>Yeah, Plants Need Light, duh.</h6>
+                            Yeah, Plants Need Light, duh.
                           </div>
                         </div>
                       </div>
@@ -347,15 +380,14 @@
               </div>
             </nav>
       </div>
-      <div class="col-lg-8">
+      <div class="col-xl-8">
           <div class="row">
-              <div class="col-6 col-lg-3 mt-3">
+              <div class="col-6 col-xl-3 mt-3"> <a href="">
                 <div class="card position-relative">
                   <i class="far fa-heart d-inline position-relative" style="top: 4vh; left: 80%; height: 24px; width: 24px; z-index:1000;"></i>
                   <img src="images/product_photos/t2.jpg" class="card-img-top d-inline position-relative" style="top: -20px;" alt="...">
 
                   <div class="card-body px-3 pt-0">
-                    <p class="text-right mb-1 p2">Model# DT-7079GML</p>
                     <h5 class="d-inline font-weight-bold">Aaron's Bonsai</h5>
                     <h6 class="d-inline">Green Mound Juniper (Outdoor)</h6><br>
                     <div class="orangeText">
@@ -374,20 +406,20 @@
                         <p class="p2"><u>Product Details</u></p>
                       </div>
                       <div class="col-6 px-0">
-                        <button type="button" class="btn btn-sm orangeOut orangeText">Add to Cart</button>
+                        <button type="button" class="btn btn-sm orangeBack">Add to Cart</button>
                       </div>
                     </div>
 
                   </div>
                 </div>
+              </a>
               </div>
-              <div class="col-6 col-lg-3 mt-3"><a href="ProdDtls_Bonsai.html">
+              <div class="col-6 col-xl-3 mt-3"><a href="ProdDtls_Bonsai.html">
                 <div class="card position-relative">
                   <i class="far fa-heart d-inline position-relative" style="top: 4vh; left: 80%; height: 24px; width: 24px; z-index:1000;"></i>
                   <img src="images/t1.jpg" class="card-img-top d-inline position-relative" style="top: -20px;" alt="...">
 
                   <div class="card-body px-3 pt-0">
-                    <p class="text-right mb-1 p2">Model# DT-7079GML</p>
                     <h5 class="d-inline font-weight-bold">Brussel's Bonsai</h5>
                     <h6 class="d-inline">Green Mound Juniper (Outdoor)</h6><br>
                     <div class="orangeText">
@@ -406,20 +438,19 @@
                         <p class="p2"><u>Product Details</u></p>
                       </div>
                       <div class="col-6 px-0"> 
-                        <button type="button" class="btn btn-sm orangeOut orangeText">Add to Cart</button>
+                        <button type="button" class="btn btn-sm orangeBack">Add to Cart</button>
                       </div>
                     </div>
 
                   </div>
                 </div></a>
               </div>
-              <div class="col-6 col-lg-3 mt-3">
+              <div class="col-6 col-xl-3 mt-3"> <a href="">
                 <div class="card position-relative">
                   <i class="far fa-heart d-inline position-relative" style="top: 4vh; left: 80%; height: 24px; width: 24px; z-index:1000;"></i>
                   <img src="images/product_photos/t2.jpg" class="card-img-top d-inline position-relative" style="top: -20px;" alt="...">
 
                   <div class="card-body px-3 pt-0">
-                    <p class="text-right mb-1 p2">Model# DT-7079GML</p>
                     <h5 class="d-inline font-weight-bold">Aaron's Bonsai</h5>
                     <h6 class="d-inline">Green Mound Juniper (Outdoor)</h6><br>
                     <div class="orangeText">
@@ -438,14 +469,15 @@
                         <p class="p2"><u>Product Details</u></p>
                       </div>
                       <div class="col-6 px-0">
-                        <button type="button" class="btn btn-sm orangeOut orangeText">Add to Cart</button>
+                        <button type="button" class="btn btn-sm orangeBack">Add to Cart</button>
                       </div>
                     </div>
 
                   </div>
                 </div>
+              </a>
                 </div>
-                <div class="col-6 col-lg-3 mt-3">
+                <div class="col-6 col-xl-3 mt-3"> <a href="">
                   <div class="card position-relative">
                     <i class="far fa-heart d-inline position-relative" style="top: 4vh; left: 80%; height: 24px; width: 24px; z-index:1000;"></i>
                     <img src="images/product_photos/t2.jpg" class="card-img-top d-inline position-relative" style="top: -20px;" alt="...">
@@ -470,14 +502,15 @@
                           <p class="p2"><u>Product Details</u></p>
                         </div>
                         <div class="col-6 px-0">
-                          <button type="button" class="btn btn-sm orangeOut orangeText">Add to Cart</button>
+                          <button type="button" class="btn btn-sm orangeBack">Add to Cart</button>
                         </div>
                       </div>
   
                     </div>
                   </div>
+                </a>
                 </div>
-                <div class="col-6 col-lg-3 mt-3">
+                <div class="col-6 col-xl-3 mt-3"> <a href="">
                   <div class="card position-relative">
                     <i class="far fa-heart d-inline position-relative" style="top: 4vh; left: 80%; height: 24px; width: 24px; z-index:1000;"></i>
                     <img src="images/product_photos/t2.jpg" class="card-img-top d-inline position-relative" style="top: -20px;" alt="...">
@@ -502,14 +535,15 @@
                           <p class="p2"><u>Product Details</u></p>
                         </div>
                         <div class="col-6 px-0">
-                          <button type="button" class="btn btn-sm orangeOut orangeText">Add to Cart</button>
+                          <button type="button" class="btn btn-sm orangeBack">Add to Cart</button>
                         </div>
                       </div>
   
                     </div>
                   </div>
+                </a>
                 </div>
-                <div class="col-6 col-lg-3 mt-3">
+                <div class="col-6 col-xl-3 mt-3"> <a href="">
                   <div class="card position-relative">
                     <i class="far fa-heart d-inline position-relative" style="top: 4vh; left: 80%; height: 24px; width: 24px; z-index:1000;"></i>
                     <img src="images/product_photos/t2.jpg" class="card-img-top d-inline position-relative" style="top: -20px;" alt="...">
@@ -534,52 +568,51 @@
                           <p class="p2"><u>Product Details</u></p>
                         </div>
                         <div class="col-6 px-0">
-                          <button type="button" class="btn btn-sm orangeOut orangeText">Add to Cart</button>
+                          <button type="button" class="btn btn-sm orangeBack">Add to Cart</button>
                         </div>
                       </div>
   
                     </div>
                   </div>
+                </a>
                 </div>
 
               </div>
               
             </div>
-            <div class="col-lg-1"></div>
+            <div class="col-xl-1"></div>
           </div>
       </div>
       <div class="row">
-          <div class="col-lg">
+          <div class="col-xl">
               <nav aria-label="Page navigation example">
                   <ul class="pagination justify-content-center justify-content-lg-end">
                     <li class="page-item disabled">
                       <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&laquo;</span></a>
                     </li>
                     <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
+                    <li class="page-item disabled">
                       <a class="page-link" href="#">&raquo;</span></a>
                     </li>
                   </ul>
                 </nav>
           </div>
-          <div class="col-lg-1"></div>
+          <div class="col-xl-1"></div>
 
       </div>
 
         <!-- FOOTER STARTS here -->
         <footer>
            <div class="row greyBack pt-3 pb-3">
-               <DIV class="col-lg-1"></DIV>
-               <div class="col-lg-5 text-center text-lg-left text-white"><h3>How doers get more done</h3></div>
-               <div class="col-lg-5 text-center text-lg-right text-white"><h3>Need Help? Please call us at: <br> 1-800-HOME-DEPOT (1-800-466-3337)</h3></div>
-               <DIV class="col-lg-1"></DIV>
+               <DIV class="col-xl-1"></DIV>
+               <div class="col-xl-5 text-center text-lg-left text-white"><h3>How doers get more done</h3></div>
+               <div class="col-xl-5 text-center text-lg-right text-white"><h3>Need Help? Please call us at: <br> 1-800-HOME-DEPOT (1-800-466-3337)</h3></div>
+               <DIV class="col-xl-1"></DIV>
              </div>
            
            <div class="row greyBack text-white  justify-content-center pb-5">
-             <DIV class="col-lg-1"></DIV>
-             <div class="col-lg-2">
+             <DIV class="col-xl-1"></DIV>
+             <div class="col-xl-2">
                <div class="text-center text-lg-left">
                <img src="images/customerService.png" height="59px"  alt="CustomerService">
                <h4 class="mt-3 mb-3"> Customer Service</h4>
@@ -594,7 +627,7 @@
              </div>  
              </div>       
              </div>
-             <div class="col-lg-2">
+             <div class="col-xl-2">
                <div class="text-center text-lg-left">
                  <img src="images/resources.png" class="mt-3 mt-lg-0" height="59px" alt="Resources">
                  <h4 class="mt-3 mb-3">Resources</h4>
@@ -613,7 +646,7 @@
                </div>    
                </div> 
              </div>
-             <div class="col-lg-2">
+             <div class="col-xl-2">
                <div class="text-center text-lg-left">
                  <img src="images/aboutUs.png"  height="59px" class="mt-3 mt-lg-0" alt="ABout Us">
                  <h4 class="mt-3 mb-3">About Us</h4>
@@ -632,7 +665,7 @@
                </div> 
                </div> 
              </div>
-             <div class="col-lg d-flex flex-column align-items-center align-items-lg-end">
+             <div class="col-xl d-flex flex-column align-items-center align-items-lg-end">
                <div class="card w-50 d-flex align-items-center flex-column">
                  <div class="card-body ">
                    <div class="d-flex">
@@ -652,17 +685,17 @@
                </div>
                <img src="images/socialMedia.png" class="w-50" alt="Social Media">
              </div>
-             <DIV class="col-lg-1"></DIV>
+             <DIV class="col-xl-1"></DIV>
            </div>
      
            <div class="row mt-3 mb-3">
-             <div class="col-lg d-flex flex-column align-items-center">
+             <div class="col-xl d-flex flex-column align-items-center">
                <img src="images/ourBrands.png" class="w-75" alt="OurBrands">
              </div>
            </div>
      
            <div class="row mt-3 mb-3">
-             <div class="col-lg d-flex flex-column align-items-center">
+             <div class="col-xl d-flex flex-column align-items-center">
              <h5>© 2000-2020 Home Depot Product Authority, LLC. All Rights Reserved. Use of this site is subject to certain Terms Of Use. </h5>
              <h5>Local store prices may vary from those displayed. Products shown as available are normally stocked but inventory levels cannot be guaranteed </h5>
              <h5>For screen reader problems with this website, please call 1-800-430-3376 or text 38698 (standard carrier rates apply to texts)</h5>
