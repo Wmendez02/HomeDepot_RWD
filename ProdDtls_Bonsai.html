@@ -72,7 +72,7 @@
 										</li>
 						</div>                
 					<!-- Search --> 
-						<div class="col-md-4 col-sm-4 d-none d-lg-block">
+						<div class="col-md-5 col-sm-5 d-none d-lg-block">
 							<form class="form-inline justify-content-center align-items-center">
 								<input class="form-control mr-sm-1 w-75" type="search" placeholder="Search" aria-label="Search">
 								<a class="btn btn-outline-primary my-2 my-sm-0" href="searchResults_Drill.html" type="button" style="color: white; background-color: transparent; border-color: white;"><i class="fas fa-search"></i></a>
@@ -83,7 +83,7 @@
 							<ul class="navbar-nav mr-auto mt-2  mt-lg-0">
 								<li class="nav-item dropdown d-none d-lg-block">
 									<a class="nav-link text-center dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										<i class="  fas fa-user-alt"></i><br>
+										<i class="  fas fa-user-alt"></i>
 									Hi, Miguel!
 									<span class="sr-only">(current)</span>
 									</a>
@@ -102,16 +102,16 @@
 					<!-- My Favorite --> 
 								<li class="nav-item active d-none d-lg-block ml-4">
 									<a class="nav-link text-center" href="#">
-									<i class="far fa-heart"></i><br>
-									My Favorites
+									<i class="far fa-heart"></i>
+									Favorites
 									<span class="sr-only">(current)</span>
 									</a>
 								</li>
 					<!-- Shopping Cart --> 
 								<li class="nav-item active ml-4 text-center">
 									<a class="nav-link" href="cart_1.html" style>
-									<i class="fas fa-shopping-cart mr-1"></i><span class="badge badge-pill badge-light" >1</span><br>
-									Shopping Cart
+									<i class="fas fa-shopping-cart mr-1"></i><span class="badge badge-pill badge-light" >1</span>
+									My Cart
 									</a>
 								</li>      
 							</ul>
@@ -362,164 +362,139 @@
 								<div class="modal-dialog modal-xl">
 								  <div class="modal-content">
 <!---Modal Start-->
-<div>
-<div class="container">
-	<style>
-		.container {
-			background-color: #f1f1f1;
-			padding-bottom: 5%;
-		 
-		}
-	</style>
-	<div class="row rowOne"> 
-		<svg id="iconX" data-dismiss="modal" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-			<path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-			<path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-		  </svg>
+<div class="container  mx-auto" id="Modalone">
+	<div class="row  justify-content-left">
+	  <div class="col-xl-12 p-4 ">
+		<form>
 	   
-		</i>
-	</div>
-	<div class="row rowTwo">
-		<div id="itemCart" class="col bold">(1) Item Added to Cart</div> 
-		<a href="" id="cShopping"class="col" data-dismiss="modal">Continue Shopping </a>
-	</div>
-	<hr class="line" style="width:100%;text-align:left;margin-left:0">
-	<div class="row rowthree">
-	   
-		<div class="col">
-			<img src="images/t1.jpg" id="bonsai" class="rounded mx-auto d-block" alt="Bonzai picture" width="80%">
-		</div>
-	  
-		<div class="col">Brussells Bonsai Green Mound <br>
-			Juniper (Outdoor) <br>
-			<br>
-			<p>Qty:</p>
-			$32
-
-		</div>
-	  
-	   
-		<div class="col bold">Cart Total <br>
-			<small id="emailHelp" class="form-text text-muted">Taxes are calculated during checkout.</small>
-			<a href="cart_1.html" button type="button" id="viewCart"class="btn btn-primary btn-lg">View Cart</button></a>
-		   
-		</div>
-	  
-	</div>
-	<hr class="line" style="width:100%;text-align:left;margin-left:0">
-	<div class="row rowFour">
-		<div id="suggested" class="col bold">Suggested Items</div>
-	</div>
-	<div class="row rowFive">
-		<div class="col colFiveA">
-			<img src="images/shears.jpg" id="sheers" class="rounded mx-auto d-block" alt="Gardening Sheers">
-		</div>
-		<div class="col colFiveB">
-			<div class="p bold"> 5.5 in. Bypass Pruner</div>
-			<div class="p light">by Fiskars</div>
-			<svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-				<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-			  </svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-				<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-			  </svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-				<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-			  </svg>
-			  <svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
-				<path fill-rule="evenodd" d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z"/>
-			  </svg>
-			  <svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-				<path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-			  </svg>
-				</svg>  <p> $9 99</p>
-			  <button class="addCart"type="button" class="btn btn-secondary btn-sm">Add To Cart</button>
-		  
-		</div>
-		<div class="col colFiveC">
-			<img src="images/succulants.jpg" id="groupPlants" class="rounded mx-auto d-block" alt="Group of Plants">
-		</div>
-		<div class="col colFiveD">
-			<div class="p bold">3.5 in Assorted Cactus and<br> Succulent Plants</div>
-			<div class="p light">(3-Pack + 1 Free)  by Altman Plants</div>
-			<svg xmlns="http://www.w3.org/2000/svg" class="starRating"width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-				<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-			  </svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-				<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-			  </svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-				<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-			  </svg>
-			  <svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
-				<path fill-rule="evenodd" d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z"/>
-			  </svg>
-			  <svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-				<path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-			  </svg> <p> $16 55</p>
+				  <svg id="Modalxout" data-dismiss="modal" class=float-right xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill= class="bi bi-x-circle" viewBox="0 0 16 16">
+					<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+					<path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				  </svg>
+				  <h2 class="text-left"id="Md1">(1) Item in Cart
+					</h2>
+				  <h2 class="IPh2 text-right" data-dismiss="modal" id="Md2">Continue Shopping
+					</h2>
+					<hr class="line" style="width:100%;text-align:left;margin-left:0">
+				  
+				
+				<div class="row justify-content-left">
+					<div class="col-4-md-12 p-3 justify-content-left">
+					  <div class="text-left">
+					  <img src="images/product_photos/t1.jpg" class="rounded fluid" width="400" alt="Bonzai Tree">
+					  </div>
+					</div>
+					<div class="col-4-md-12 p-3 justify-content-left">
+					  <div class="text-left">
+					 
+					  <h2 class="IPh2"> Brussels Bonzai Green Mound <br>Juniper (Outdoor)<br>
+  
+						<br>
+					  <br><br>
+					$32.00</h2>
+					  </div>
+					</div>  
+					<div class="col-4-md-12 p-3 mx-auto">
+					  <div class="IPh2">Cart Total <br> Taxes are calculated during checkout<br><br></div>
+					  <a type="button" href="cart_1.html" class="btn btn-primary btn-lg btn-block" id=IPbutton1>View Cart</a>
+					</div>
+				</div> 
+					
+				<hr class="line" style="width:100%;text-align:left;margin-left:0">
+				<div class="row justify-content-left">
+				  <div class="h2 p-3">Suggested Items
+  
+				  </div>
+				</div> 
+			   <div class="row justify-content-left">
+				<div class="form-group col-2-sm-1 w justify-content-center">
+				  <img class="img-responsive" src="images/Shears.jpg" alt="Sheers" width="145">
+				</div>
+				<div class="col-sm-2">5.5in. Bypass Pruner<br>By Fiskars <br>
+				   <br>
+				  <svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+					<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+				  </svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+					<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+				  </svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+					<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+				  </svg>
+				  <svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z"/>
+				  </svg>
+				  <svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+				  </svg>
+				  <br>
+				  <div class="p">$9.99</div>
+				  <br>
+				  <button class="addCartModal bg-white"type="button" class="starRating" class="btn btn-secondary btn-sm">Add To Cart</button>
+				</div>
+  
 			   
-			<button class="addCart"type="button" class="btn btn-secondary btn-sm">Add To Cart</button>
-		  
+					
+  
+					  <div class="form-group col-2-sm-1 w justify-content-center">
+						<img class="img-responsive" src="images/succulants.jpg" alt="Plants" width="145">
+					  </div>
+					  <div class="col-sm-2">3.5in. Assorted Succulents<br>(3-Pack+1 Free)<br>
+					  
+						<svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+						  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+						  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+						  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+						  <path fill-rule="evenodd" d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+						  <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+						</svg>
+						<br>
+						<div class="p">$16.55</div>
+						<br>
+						<button class="addCartModal bg-white"type="button" class="starRating" class="btn btn-secondary btn-sm">Add To Cart</button>
+					  </div>
+  
+					   
+					 
+					  <div class="form-group col-2-sm-2 justify-content-center">
+					 
+						<img class="img-responsive" src="images/miracle-gro-plant-food-fertilizer-1002521-64_300.jpg" alt="Fertilizer" width="145">
+					  </div>
+					 
+					  <div class="col-2">Dyna-Gro<br>
+						8 oz. Fertilizer <br><br>
+						<svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+						  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+						  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+						  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+						  <path fill-rule="evenodd" d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z"/>
+						</svg>
+						<svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+						  <path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+						</svg>
+						<br>
+						<div class="p">$19.98</div>
+						<br>
+						<button class="addCartModal bg-white"type="button" class="starRating" class="btn btn-secondary btn-sm">Add To Cart</button>
+						</div>
+					 
+					</div>
+				   
+					 
+  
+			</div>
 		</div>
-		<div class="col colFive">
-			<img src="images/miracleGro.jpg" id="groupPlants" class="rounded mx-auto img-fluid d-block" alt="Group of Plants">
-		</div>
-		<div class="col colsFiveF">
-			<div class="p bold">Dyna-Gro <br> 8 oz. Fertilizer</div>
-			<svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-				<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-			  </svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-				<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-			  </svg><svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
-				<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-			  </svg>
-			  <svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
-				<path fill-rule="evenodd" d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z"/>
-			  </svg>
-			  <svg xmlns="http://www.w3.org/2000/svg" class="starRating" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
-				<path fill-rule="evenodd" d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.523-3.356c.329-.314.158-.888-.283-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767l-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288l1.847-3.658 1.846 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.564.564 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-			  </svg>
-			  <p> $19 98</p>
-			<button class="addCart"type="button" class="starRating" class="btn btn-secondary btn-sm">Add To Cart</button>
-		</div>
-	   
-</div>
-<style>
-	.line {
-		padding: 1%;
-	}
-	#iconX {
-		color: #FA6304;
-		margin-left: 97.5%;
-		margin-top: .5%;
-	}
-	#viewCart{
-		background-color: #FA6304 !important;
-		border: #FA6304 !important;
-		margin-top: 5%;
-		width: 100%;
-	}
-	.addCart{
-		background-color: white !important;
-		color: #FA6304!important;
-		border-color: #FA6304 !important;
-
-	}
-	#cShopping{
-		margin-left: 55%;
-		color: #FA6304;
-	}
-	.starRating {
-		margin-right: 1%;
-		color: #FA6304;
-	}
-	.bold {
-		font-weight: bold;
-	}
-	#suggested {
-		margin-bottom: 2%;
-	}
-   
-</style>
-</div>
-</div>
-<!---Modal End-->
+	</div>
+ </div>
+ <!---Modal End-->
 	        			</div></div>
 	        		</div>
 	        	</div>

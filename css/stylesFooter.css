@@ -1,5 +1,6 @@
 .orangeBack {
     background-color: #F86201 !important;
+    color: #ffffff !important;
 }
 .orangeText {
     color: #F86201 !important;
@@ -9,17 +10,18 @@
 }
 .greyBack {
     background-color: #828282 !important;
+    
 }
 .ltGreyBack{
     background-color: #EDEDED;
 }
-h3 {
+/** h3 {
     font-size: 18px !important;
     font-weight: 500 !important;
 }
-h4 {
+/** h4 {
     font-size: 16px !important;
-    font-weight: 500 !important;
+    font-weight: 500 !important; 
 }
 h5{
     font-weight: 300 !important;
@@ -30,7 +32,7 @@ h6{
     font-weight: 300 !important;
     font-size: 12px !important;
 
-}
+} **/
 hr{
     color: black !important;
 }
@@ -120,5 +122,32 @@ hr{
  .btn-outline-primary:hover {
  background-color: #f1f1f1;
  }
+ .starRating {
+    color: #F96302; 
+  }
+  .addCartModal {
+    color: #F96302;
+    border-color: #F96302;
+   }
+   #Modalone {
+    background-color: #f1f1f1;
+  }
+  #Md2 {
+    color: #F96302;
+  }
+  #Modalxout {
+   border-radius: #F96302 !important;
+  }
+  
  
  /** Simons Code**/
+
+ .container-login100 {
+    min-height: 75vh !important;
+ }
+ a {
+    color: #000000;
+ }
+ .fa-heart.position-relative{
+     color:#F86201 !important;
+ }

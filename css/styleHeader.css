@@ -60,3 +60,31 @@
   
 }
 
+/*============= CAROUSEL =============*/
+
+#carousel {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+
+.carousel-inner {
+  max-height: 38rem!important;
+}
+
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 2.2s ease;
+
+}
+
+/*-- Carousel Content --*/
+
+h1{
+  font-family: HelveticaNeue, Helvetica, sans-serif, Arial; 
+  font-size: 26px;
+  font-weight: 800;
+  text-justify: center;
+
+}
+
