@@ -1,7 +1,5 @@
 console.log("Your index.js file is loaded correctly!");
-$('#dOB').click(function(){
-    $('#deliveryOption').css("display", "block");
-});
+
 $('#sAB').click(function(){
     $('#shippingAddress').css("display", "block");
 });
@@ -16,9 +14,14 @@ $('.sTHR').click(function(){
     $('.homeShip').css("display", "flex");
 });
 $('#billCheck').click(function(){
-    $('.billForm').toggleClass("hidden");
+    $('.billForm').css("display", "flex");
 });
-
-$('#bAB').click(function(){
-    $('#billingAddress').css("display", "block");
+$('.sTHR').click(function(){
+    $('.dOB').addClass("homeDel") .removeClass("storePick");
+});
+$('.sPUR').click(function(){
+    $('.dOB').addClass("storePick") .removeClass("homeDel");
+});
+$('.homeDel').click(function(){
+    $('#deliveryOption').css("display", "block");
 });

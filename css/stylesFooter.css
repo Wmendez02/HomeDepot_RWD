@@ -65,6 +65,9 @@ hr{
 #shippingAddress {
     display: none;
 }
+#billingAddress {
+    display: none;
+}
 #deliveryOption {
     display: none;
 }
@@ -72,6 +75,9 @@ hr{
     display: none;
 }
 .homeShip{
+    display: none;
+}
+.hidden {
     display: none;
 }
 

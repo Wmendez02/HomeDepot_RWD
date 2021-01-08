@@ -68,7 +68,7 @@
                                     </li>
                     </div>                
                 <!-- Search --> 
-                    <div class="col-md-4 col-sm-4 d-none d-lg-block">
+                    <div class="col-md-5 col-sm-5 d-none d-lg-block">
                         <form class="form-inline justify-content-center align-items-center">
                             <input class="form-control mr-sm-1 w-75" type="search" placeholder="Search" aria-label="Search">
                             <a class="btn btn-outline-primary my-2 my-sm-0" href="searchResults_Bonsai.html" type="button" style="color: white; background-color: transparent; border-color: white;"><i class="fas fa-search"></i></a>
@@ -352,10 +352,10 @@
                           <div class="row justify-content-center">
                             <div class="col-12 col-xl-1"></div>
                             <div class="col-10 col-xl-5">
-                              <button type="button" id="dOB" class="btn btn-block orangeBack mt-2" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-parent="#accordionExample">Save</button>
+                              <button type="button" id="dOB" class="btn dOB btn-block orangeBack mt-2" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" data-parent="#accordionExample">Save</button>
                             </div>
                             <div class="col-10 col-xl-5">
-                              <button type="submit" class="btn btn-block orangeText mt-2">Cancel</button>
+                              <button type="submit" class="btn btn-block orangeText orangeOut mt-2">Cancel</button>
                             </div>
                             <div class="col-12 col-xl-1"></div>
                           </div>
@@ -386,7 +386,7 @@
                                   <input type="text" class="form-control" id="exampleInputPassword1">
                                 </div>
                                 <div class="row homeShip">
-                                  <div class="col-12 pl-0">
+                                  <div class="col-12">
                                     <div class="form-group ">
                                       <label for="exampleInputPassword1">Shipping Address</label>
                                       <input type="text" class="form-control" id="exampleInputPassword1">
@@ -394,13 +394,13 @@
                                   </div>
                                 </div>
                                 <div class="row homeShip">
-                                  <div class="col-9 pl-0">
+                                  <div class="col-9 ">
                                     <div class="form-group">
                                       <label for="exampleInputEmail1">City</label>
                                       <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                     </div>
                                   </div>
-                                  <div class="col-12 col-xl-3 pl-0 pr-lg-0">
+                                  <div class="col-12 col-xl-3 pl-0">
                                     <div class="form-group">
                                       <label for="exampleInputEmail1">State</label>
                                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -408,13 +408,13 @@
                                   </div>
                                 </div>
                                 <div class="row">
-                                  <div class="col-6 pl-0">
+                                  <div class="col-6 ">
                                     <div class="form-group">
                                       <label for="exampleInputEmail1">Phone Number (Optional)</label>
                                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                     </div>
                                   </div>
-                                  <div class="col-6 pr-0">
+                                  <div class="col-6">
                                     <div class="form-group">
                                       <label for="exampleInputEmail1">Zip Code/ Store #</label>
                                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -423,10 +423,10 @@
                                 </div>
                                 <div class="row">
                                   <div class="col-6 pl-0">
-                                    <button type="button" class="btn btn-block orangeBack" id="sAB" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="SavedAdd">Save</button>
+                                    <button type="button" class="btn btn-block orangeBack" id="sAB" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="SavedAdd">Save</button>
                                   </div>
                                   <div class="col-6 pr-0">
-                                    <button type="submit" class="btn btn-block orangeText">Cancel</button>
+                                    <button type="submit" class="btn btn-block orangeOut orangeText">Cancel</button>
                                   </div>
                                 </div>
                               </form>                         
@@ -439,10 +439,95 @@
                       </div>
                     </div>
                     <div class="card rounded-0 border-0 mt-3">
+                      <div class="card-header pl-0 py-1" id="headingSix">
+                        <h2 class="mb-0">
+                          <button class="btn btn-block text-left collapsed text-dark border-0 p-0" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <h3 class="orangeBack font-weight-bold d-inline text-white p-2">3</h3>
+                            <h3 class="font-weight-bold d-inline ml-3">Billing Address</h3>
+                          </button>
+                        </h2>
+                      </div>
+                      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-1"></div>
+                            <div class="col-10">
+                              <div class="form-check mt-3 mb-3">
+                                <input class="form-check-input" type="checkbox" value="" checked id="billCheck">
+                                <label class="form-check-label" for="billCheck">
+                                  <h5>Same as Shipping Address</h5>
+                                </label>
+                              </div>
+                              <form  >
+                                <div class="form-group billForm hidden">
+                                  <label for="exampleInputEmail1">First Name</label>
+                                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group  billForm hidden">
+                                  <label for="exampleInputPassword1">Last Name</label>
+                                  <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="row  billForm hidden">
+                                  <div class="col-12 ">
+                                    <div class="form-group ">
+                                      <label for="exampleInputPassword1">Billing Address Address</label>
+                                      <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row  billForm hidden">
+                                  <div class="col-9 ">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">City</label>
+                                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                  </div>
+                                  <div class="col-12 col-xl-3 pl-0 ">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">State</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row billForm hidden">
+                                  <div class="col-6 ">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Phone Number (Optional)</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                  </div>
+                                  <div class="col-6">
+                                    <div class="form-group">
+                                      <label for="exampleInputEmail1">Zip Code/ Store #</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-6 pl-0">
+                                    <button type="button" class="btn btn-block orangeBack" id="bAB" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="SavedAdd">Save</button>
+                                  </div>
+                                  <div class="col-6 pr-0">
+                                    <button type="submit" class="btn btn-block orangeOut orangeText">Cancel</button>
+                                  </div>
+                                </div>
+                              </form>                         
+                            </div>
+                            <div class="col-1">
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    
+                    <div class="card rounded-0 border-0 mt-3">
                       <div class="card-header pl-0 py-1" id="headingThree">
                         <h2 class="mb-0">
                           <button class="btn btn-block text-left text-dark border-0 p-0 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h3 class="orangeBack font-weight-bold d-inline text-white p-2">3</h3>
+                            <h3 class="orangeBack font-weight-bold d-inline text-white p-2">4</h3>
                             <h3 class="font-weight-bold d-inline ml-3">Payment Method</h3>
                           </button>
                         </h2>
@@ -461,8 +546,8 @@
                                   <input type="password" class="form-control" id="exampleInputPassword1">
                                 </div>
                                 <div class="row">
-                                  <div class="col-8 px-0">
-                                    <div class="form-group">
+                                  <div class="col-8 ">
+                                    <div class="form-group pl-2">
                                       <label for="exampleInputEmail1">Expiration</label>
                                       <div class="row justify-content-between">
                                         <input type="text" class="form-control col-6" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Month">
@@ -483,7 +568,7 @@
                                     <button type="button" id="pMB" class="btn btn-block orangeBack" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="SavedAdd">Save</button>
                                   </div>
                                   <div class="col-6 pr-0">
-                                    <button type="submit" class="btn btn-block orangeText">Cancel</button>
+                                    <button type="submit" class="btn btn-block orangeOut orangeText">Cancel</button>
                                   </div>
                                 </div>
                               </form>
@@ -503,7 +588,7 @@
                     <div class="card-header pl-0 py-1" >
                       <h2 class="mb-0">
                         <button class="btn btn-block text-left text-dark border-0 p-0" type="button">
-                          <h3 class="orangeBack font-weight-bold d-inline text-white p-2">4</h3>
+                          <h3 class="orangeBack font-weight-bold d-inline text-white p-2">5</h3>
                           <h3 class="font-weight-bold d-inline ml-3">Product Review</h3>
                         </button>
                       </h2>
@@ -522,7 +607,7 @@
                                 <h6 class="d-inline">Green Mound Juniper (Outdoor)</h6><br>
                                 <h6>by Brussel Bushes</h6>
                                 <div class="row mb-2">
-                                  <div class="col-7 pl-0">
+                                  <div class="col-7">
                                     <div class="d-inline orangeText">
                                       <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
                                     </div>
@@ -532,9 +617,7 @@
                                     <h6 class="d-inline text-right">Questions & Answers</h6>
                                   </div>
                                 </div>
-                                <h5>-Includes container, humidity tray, and care brochure</h5>
-                                <h5>-Ideal for use in home and office</h5>
-                                <h5>-Perfect accent piece for outdoor porch, patio, and deck areas</h5>
+                                <h5>Model #DT-07079GMJ</h5>
                                 <a href="">
                                   <h5>See More Details</h5>
                                 </a>
@@ -543,15 +626,15 @@
                           </div>
                           <div class="row no-gutters">
                             <div class="col-md-3">
-                              <img src="images/product_photos/t1.jpg" class="card-img" alt="...">
+                              <img src="images/product_photos/drill1.png" class="card-img" alt="...">
                             </div>
                             <div class="col-md-9">
                               <div class="card-body">
-                                <h5 class="d-inline font-weight-bold">Brussel's Bonsai</h5>
-                                <h6 class="d-inline">Green Mound Juniper (Outdoor)</h6><br>
-                                <h6>by Brussel Bushes</h6>
+                                <h5 class="d-inline font-weight-bold">Black+Decker</h5>
+                                <h6 class="d-inline">20-Volt Max Lithium-ion cordless 3/8in. Drill with
+                                  Battery 1.5Ah and Charger</h6><br>
                                 <div class="row mb-2">
-                                  <div class="col-7 pl-0">
+                                  <div class="col-7 ">
                                     <div class="d-inline orangeText">
                                       <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
                                     </div>
@@ -561,9 +644,7 @@
                                     <h6 class="d-inline text-right">Questions & Answers</h6>
                                   </div>
                                 </div>
-                                <h5>-Includes container, humidity tray, and care brochure</h5>
-                                <h5>-Ideal for use in home and office</h5>
-                                <h5>-Perfect accent piece for outdoor porch, patio, and deck areas</h5>
+                                <h5>MODEL #LDX120C</h5>
                                 <a href="">
                                   <h5>See More Details</h5>
                                 </a>
@@ -572,15 +653,14 @@
                           </div>
                           <div class="row no-gutters">
                             <div class="col-md-3">
-                              <img src="images/product_photos/t1.jpg" class="card-img" alt="...">
+                              <img src="images/product_photos/baliShades.jpg" class="card-img" alt="...">
                             </div>
                             <div class="col-md-9">
                               <div class="card-body">
-                                <h5 class="d-inline font-weight-bold">Brussel's Bonsai</h5>
-                                <h6 class="d-inline">Green Mound Juniper (Outdoor)</h6><br>
-                                <h6>by Brussel Bushes</h6>
+                                <h5 class="d-inline font-weight-bold">Bali</h5>
+                                <h6 class="d-inline">Light Filtering Cellular Shade</h6><br>
                                 <div class="row mb-2">
-                                  <div class="col-7 pl-0">
+                                  <div class="col-7 ">
                                     <div class="d-inline orangeText">
                                       <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i>
                                     </div>
@@ -590,9 +670,7 @@
                                     <h6 class="d-inline text-right">Questions & Answers</h6>
                                   </div>
                                 </div>
-                                <h5>-Includes container, humidity tray, and care brochure</h5>
-                                <h5>-Ideal for use in home and office</h5>
-                                <h5>-Perfect accent piece for outdoor porch, patio, and deck areas</h5>
+                                <h5>MODEL #51</h5>
                                 <a href="">
                                   <h5>See More Details</h5>
                                 </a>
@@ -611,46 +689,51 @@
                             <div class="row">
                               <h4 class="col-12" >Delivery Option:</h4>
                               <div class="col-12" id="deliveryOption" >
-                                <h4 class="font-weight-bolder text-right">Store Pick Up</h4>
-                                <a class="text-right" href=""><h4>Change Delivery Option</h4></a>
+                                <h4 class="font-weight-bolder text-right">Ship To Home</h4>
+                                <a class="text-right" href=""><h5>Change Delivery Option</h5></a>
                               </div>
                               <br><br>                                
                               <h4 class="col-12" >Shipping Address:</h4>
                               <div class="col-12" id="shippingAddress">
-                                <h4 class="text-right font-weight-bolder">Store Address</h4>
-                                <h5 class="font-weight-bolder text-right">Austin Muleller Airport #6892</h5>
-                                <h5 class="text-right">1200 Babara Jordan Blvd Suite 100</h5>
-                                <h5 class="text-right">Austin, TX 78524</h5>
-                                <h6 class="text-right"><span class="text-success">Open</span> Closes 9 pm</h6>
-                                <a class="text-right" href=""><h6>More details</h6></a>
-                                <a class="text-right" href=""><h4>Change Address</h4></a>                                  
+                                <h4 class="text-right font-weight-bolder">Miguel Roblero</h4>
+                                <h4 class=" text-right font-weight-bolder">123 Roblero Drive</h4>
+                                <h4 class="text-right font-weight-bolder">Apartment 3C</h4>
+                                <h4 class="text-right font-weight-bolder">Austin, TX 78524</h4>
+                                <a class="text-right" href=""><h5>Change Address</h5></a>                                  
                               </div>
-                             <br><br>                                
+                             <br><br>
+                             <h4 class="col-12" >Billing Address:</h4>
+                             <div class="col-12" id="billingAddress">
+                               <h4 class="text-right font-weight-bolder">Same as Shipping</h4>
+                               <a class="text-right" href=""><h5>Change Address</h5></a>                                  
+                             </div>
+                            <br><br>                                
+                               
                               <h4 class="col-12" >Payment Method:</h4>
                               <div class="col-12 text-right" id="paymentMethod">
                               <h4 class="font-weight-bolder" >MasterCard end in 3193</h4>
-                              <h4>Miguel Roblero</h4>
-                              <a class="text-right" href=""><h4>Change Payment Method</h4></a>
+                              <h4 class="font-weight-bolder">Miguel Roblero</h4>
+                              <a class="text-right" href=""><h5>Change Payment Method</h5></a>
                             </div>
                             </div>
                               <hr><br>
                               <div class="row">
                                 <h4 class="col-6" >Subtotal</h4>
-                                <h4 class="col-6 text-right" >$32.00</h4>
+                                <h4 class="col-6 text-right font-weight-bolder" >$32.00</h4>
                                 <br><br>
                                 <h4 class="col-6" >Savings</h4>
                                 <h4 class="col-6 text-right" >____</h4>
                                 <br><br>
                                 <h4 class="col-6" >Estimated Shipping</h4>
-                                <h4 class="col-6 text-right text-success" >FREE</h4>
+                                <h4 class="col-6 text-right text-success font-weight-bolder" >FREE</h4>
                                 <br>
                                 <h5 class="col-8" >Sales Tax (To Be Determined in a later step)</h5>
-                                <h5 class="col-4 text-right " >$1.56</h4>
+                                <h5 class="col-4 text-right font-weight-bolder" >$1.56</h4>
                             </div>
                             <hr style="border-width: 3px !important">
                             <div class="row">
                                 <h3 class="col-6">Total</h3>
-                                <h4 class="col-6 text-right" >$33.00</h4>
+                                <h4 class="col-6 text-right font-weight-bolder" >$33.00</h4>
                             </div>
                             <div class="row">
                                 <h5 class="col">Have a promo?</h5>
